@@ -25,7 +25,7 @@ def bubble_sort( arr ):
     while swap_occurred:
         swap_occurred = False
 
-        for i in range(0, arr(len)-2):
+        for i in range(0, len(arr)-1):
             if arr[i] > arr[i+1]:
                 temp = arr[i+1]
                 arr[i+1] = arr[i]
